@@ -115,11 +115,11 @@ This ELK server is configured to monitor the following machines:
 
 We have installed the following Beats on these machines:
   
-  -Webservers
+  - Webservers
 
 - These Beats allow us to collect the following information from each machine:
   
-  -Machine health, performance, system logs and events etc.  
+  - Machine health, performance, system logs and events etc.  
 
 
 ### Using the Playbook
@@ -148,10 +148,11 @@ SSH into the control node and follow the steps below:
 
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?
  - HostName in Host configuration file
+ - [Example Host](https://github.com/gbledsoeCMSP/Project1/blob/811b545e5f50f68c74596f6cae1a55379aecccce/ansible/hosts.yml)
 
 Which URL do you navigate to in order to check that the ELK server is running?
  - SSH aszureuser@10.0.0.8 (Web-1)
- - http://13.77.220.158:5601
+ - http://13.77.220.158:5601/app/#kibana/home
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
