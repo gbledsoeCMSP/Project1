@@ -131,6 +131,8 @@ SSH into the control node and follow the steps below:
 - Update the filebeat.yml file to include...
 - Run the playbook, and navigate to http://13.77.220.158:5601/app/kibana#/home to check that the installation worked as expected.  (Screenshot)
 
+![kibanaserver](https://user-images.githubusercontent.com/94094793/155827131-8506dcbb-7c51-4220-a635-1a0ebea4094e.png)
+
 : Answer the following questions to fill in the blanks:_
 - Which file is the playbook? Ansible-playbook files   
 - Where do you copy it? Root of ansible 
