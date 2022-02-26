@@ -6,14 +6,14 @@ Rice University Cybersecurity Bookcamp Project 1
 
 The files in this repository were used to configure the network depicted below.
 
-https://drive.google.com/drive/folders/1NUGp-J6qxbQM84Sux2qksKS3FDvrsuHY?usp=sharing
+https://github.com/gbledsoeCMSP/Project1/blob/main/diagrams/Network%20Digram.png
 
 - pentest-yml.png
 - flebeat-playbook-yml.png
 - install-elk-yml.png
 - meatricbeat-playbook-yml.png
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
   - install-elk.yml
   - pentest.yml
