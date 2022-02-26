@@ -91,12 +91,6 @@ What is the main advantage of automating configuration with Ansible?
 
 The playbook implements the following tasks:
 
-- ansible-playbook pentest.yml
-- ansible-playbook filebeat-playbook.yml
-- ansible-playbook metricbeat-playbook.yml
-- ansible-playbook install-elk.yml
-
-
 In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 
 1.  Check for the presence of docker (Install/Update)
