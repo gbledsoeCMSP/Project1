@@ -7,6 +7,7 @@ Rice University Cybersecurity Bookcamp Project 1
 The files in this repository were used to configure the network depicted below.
 
 https://github.com/gbledsoeCMSP/Project1/blob/main/diagrams/Network%20Digram.png
+diagrams/docker_ps_output.png
 
 - pentest-yml.png
 - flebeat-playbook-yml.png
