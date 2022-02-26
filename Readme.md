@@ -6,10 +6,10 @@ Rice University Cybersecurity Bookcamp Project 1
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/gbledsoeCMSP/Project1/blob/main/diagrams/Network%20Digram.png
+![Network Digram](https://user-images.githubusercontent.com/94094793/155827147-2772a0f0-b4ed-4fd3-b657-2841a2637eb0.png)
 
+![filebeat-playbook-yml](https://user-images.githubusercontent.com/94094793/155827171-ef7e2725-2e80-4223-8590-449b635bda36.png)
 
-diagrams/filebeat-playbook-yml.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
