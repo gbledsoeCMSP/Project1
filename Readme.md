@@ -106,7 +106,8 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://github.com/gbledsoeCMSP/Project1/blob/690879c87626da1f68e620148567f9ae5ba5ef2c/diagrams/docker_ps_output.png
+![docker_ps_output](https://user-images.githubusercontent.com/94094793/155827216-18af9fb5-38ce-4bb5-bd21-ac6b6feb597f.png)
+
 - docker_ps_output.png
 
 ### Target Machines & Beats
