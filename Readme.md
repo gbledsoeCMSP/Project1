@@ -117,7 +117,7 @@ We have installed the following Beats on these machines:
   
   - Webservers
 
-- These Beats allow us to collect the following information from each machine:
+These Beats allow us to collect the following information from each machine:
   
   - Machine health, performance, system logs and events etc.  
 
