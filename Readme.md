@@ -6,14 +6,14 @@ Rice University Cybersecurity Bookcamp Project 1
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/gbledsoeCMSP/Project1/blob/main/diagrams/Network%20Digram.png
+![Network Digram](https://user-images.githubusercontent.com/94094793/155827147-2772a0f0-b4ed-4fd3-b657-2841a2637eb0.png)
 
-- pentest-yml.png
-- flebeat-playbook-yml.png
-- install-elk-yml.png
-- meatricbeat-playbook-yml.png
+![filebeat-playbook-yml](https://user-images.githubusercontent.com/94094793/155827171-ef7e2725-2e80-4223-8590-449b635bda36.png)
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
+
+Ansible Playbook Files - /ansible
 
   - install-elk.yml
   - pentest.yml
@@ -106,7 +106,8 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://github.com/gbledsoeCMSP/Project1/blob/690879c87626da1f68e620148567f9ae5ba5ef2c/diagrams/docker_ps_output.png
+![docker_ps_output](https://user-images.githubusercontent.com/94094793/155827216-18af9fb5-38ce-4bb5-bd21-ac6b6feb597f.png)
+
 - docker_ps_output.png
 
 ### Target Machines & Beats
@@ -131,6 +132,8 @@ SSH into the control node and follow the steps below:
 - Update the filebeat.yml file to include...
 - Run the playbook, and navigate to http://13.77.220.158:5601/app/kibana#/home to check that the installation worked as expected.  (Screenshot)
 
+![kibanaserver](https://user-images.githubusercontent.com/94094793/155827131-8506dcbb-7c51-4220-a635-1a0ebea4094e.png)
+
 : Answer the following questions to fill in the blanks:_
 - Which file is the playbook? Ansible-playbook files   
 - Where do you copy it? Root of ansible 
@@ -145,5 +148,4 @@ Which URL do you navigate to in order to check that the ELK server is running?
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
-
-
+![howto](https://user-images.githubusercontent.com/94094793/155827322-e123c837-067b-45ee-98da-f5a145bb7983.png)
