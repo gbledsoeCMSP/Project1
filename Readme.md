@@ -30,7 +30,6 @@ This document contains the following details:
   - Machines Being Monitored
 - How to Use the Ansible Build
 
-
 ### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
@@ -40,12 +39,13 @@ What aspect of security do load balancers protect?
 - Load balancers protect the system from DDoS attacks by shifting traffic. 
 
 What is the advantage of a jump box?_
-The advantage of a jump box is to give secure access to such resources via SSH and Private Pre-Shared key... 
+ - The advantage of a jump box is to give secure access to such resources via SSH and Private Pre-Shared key... 
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 What does Filebeat watch for?
-- Filebeat forwards and centralizes log data. Filebeat monitors the log files or locations that you specify collects log events and forwards them either to Elasticsearch or Logstash for indexing.
+
+ - Filebeat forwards and centralizes log data. Filebeat monitors the log files or locations that you specify collects log events and forwards them either to Elasticsearch or    Logstash for indexing.
 
 What does Metricbeat record?
 - Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash. Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the server, such as: Apache.
@@ -127,26 +127,31 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 
-- Copy the filebeat file to file-conifg.yml.
+ - Copy the filebeat file to file-conifg.yml.
 
+ - Update the filebeat.yml file to include...
 
-- Update the filebeat.yml file to include...
-
-- Run the playbook, and navigate to http://13.77.220.158:5601/app/kibana#/home to check that the installation worked as expected.
+ - Run the playbook, and navigate to http://13.77.220.158:5601/app/kibana#/home to check that the installation worked as expected.
 
 ![kibanaserver](https://user-images.githubusercontent.com/94094793/155827131-8506dcbb-7c51-4220-a635-1a0ebea4094e.png)
 
-: Answer the following questions to fill in the blanks:_
-- Which file is the playbook? Ansible-playbook files   
-- Where do you copy it? Root of ansible 
-- Which file do you update to make Ansible run the playbook on a specific machine? hosts configuration file
+: Answer the following questions to fill in the blanks:
+
+- Which file is the playbook?
+ - Ansible-playbook files   
+
+- Where do you copy it?
+ - Root of ansible 
+
+-  Which file do you update to make Ansible run the playbook on a specific machine? 
+ - hosts configuration file
 
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?
-- HostName in Host configuration file
+ - HostName in Host configuration file
 
 Which URL do you navigate to in order to check that the ELK server is running?
-- SSH aszureuser@10.0.0.8 (Web-1)
-- http://13.77.220.158:5601
+ - SSH aszureuser@10.0.0.8 (Web-1)
+ - http://13.77.220.158:5601
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
