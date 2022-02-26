@@ -12,12 +12,16 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 Ansible Playbook Files - /ansible
 
-### Install Elk Server File] (Project1/ansible/instal-elk.yml)
-  ![Anisblel(https://user-
-  - pentest.yml
-  - filebeat-playbook.yml
-  - metricbeat-playbook.yml
+### Install Elk Server File
+ 
+[install-elk.yml](https://github.com/gbledsoeCMSP/Project1/blob/49c69a8f7e42303f5705606cba0af03b7ad68e07/ansible/install-elk.yml)
 
+[pentest.yml](https://github.com/gbledsoeCMSP/Project1/blob/49c69a8f7e42303f5705606cba0af03b7ad68e07/ansible/pentest.yml)
+
+[Filebeat-playbook.yml](https://github.com/gbledsoeCMSP/Project1/blob/2e5ee6a68ccdaa998c75ba838623af311ceeed32/ansible/filebeat-playbook.yml)
+
+ [metricbeat-playbook.yml](https://github.com/gbledsoeCMSP/Project1/blob/49c69a8f7e42303f5705606cba0af03b7ad68e07/ansible/metricbeat-playbook.yml)
+  
 This document contains the following details:
 - Description of the Topologu
 - Access Policies
