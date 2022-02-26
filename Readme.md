@@ -6,7 +6,7 @@ Rice University Cybersecurity Bookcamp Project 1
 
 The files in this repository were used to configure the network depicted below.
 
-ansible/filebeat-playbook.yml
+![Network Diagram](https://github.com/gbledsoeCMSP/Project1/blob/5a82598e85065b70d9c1a166481d92567deb0ed4/diagrams/Network%20Digram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -20,7 +20,7 @@ Ansible Playbook Files - /ansible
 
 [Filebeat-playbook.yml](https://github.com/gbledsoeCMSP/Project1/blob/2e5ee6a68ccdaa998c75ba838623af311ceeed32/ansible/filebeat-playbook.yml)
 
- [metricbeat-playbook.yml](https://github.com/gbledsoeCMSP/Project1/blob/49c69a8f7e42303f5705606cba0af03b7ad68e07/ansible/metricbeat-playbook.yml)
+[metricbeat-playbook.yml](https://github.com/gbledsoeCMSP/Project1/blob/49c69a8f7e42303f5705606cba0af03b7ad68e07/ansible/metricbeat-playbook.yml)
   
 This document contains the following details:
 - Description of the Topologu
