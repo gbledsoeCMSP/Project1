@@ -115,24 +115,30 @@ The following screenshot displays the result of running `docker ps` after succes
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
-- 10.0.0.7
-- 10.0.0.8
-- 10.0.0.10
-
+  - 10.0.0.7
+  - 10.0.0.8
+  - 10.0.0.10
 
 We have installed the following Beats on these machines:
-- Webservers
+  
+  -Webservers
 
-These Beats allow us to collect the following information from each machine:
-- Machine health, performance, system logs and events etc.  
+- These Beats allow us to collect the following information from each machine:
+  
+  -Machine health, performance, system logs and events etc.  
+
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
+
 - Copy the filebeat file to file-conifg.yml.
+
+
 - Update the filebeat.yml file to include...
-- Run the playbook, and navigate to http://13.77.220.158:5601/app/kibana#/home to check that the installation worked as expected.  (Screenshot)
+
+- Run the playbook, and navigate to http://13.77.220.158:5601/app/kibana#/home to check that the installation worked as expected.
 
 ![kibanaserver](https://user-images.githubusercontent.com/94094793/155827131-8506dcbb-7c51-4220-a635-1a0ebea4094e.png)
 
