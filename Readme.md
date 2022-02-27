@@ -140,13 +140,13 @@ SSH into the control node and follow the steps below:
 
 ### Answer the following questions to fill in the blanks:
 
-- Which file is the playbook?
+Which file is the playbook?
  - Ansible-playbook files   
 
-- Where do you copy it?
+Where do you copy it?
  - Root of ansible 
 
--  Which file do you update to make Ansible run the playbook on a specific machine? 
+Which file do you update to make Ansible run the playbook on a specific machine? 
  - hosts configuration file
 
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?
