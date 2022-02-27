@@ -70,9 +70,12 @@ Only the Elk machine can accept connections from the Internet. Access to this ma
 - 98.201.165.179
 
 Machines within the network can only be accessed by Jumpbox via SSH & Private Pre-Shared Key.
-- Which machine did you allow to access your ELK VM? Jumpbox
+
+Which machine did you allow to access your ELK VM?
+- Jumpbox
 
 What was its IP address?
+- 10.0.0.6 (Jumpbox Private)
 - 20.121.5.142 (Jumpbox Public)
 
 A summary of the access policies in place can be found in the table below.
@@ -135,7 +138,7 @@ SSH into the control node and follow the steps below:
 
 ![kibanaserver](https://user-images.githubusercontent.com/94094793/155827131-8506dcbb-7c51-4220-a635-1a0ebea4094e.png)
 
-: Answer the following questions to fill in the blanks:
+### Answer the following questions to fill in the blanks:
 
 - Which file is the playbook?
  - Ansible-playbook files   
