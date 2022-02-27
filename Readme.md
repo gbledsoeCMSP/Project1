@@ -23,7 +23,7 @@ Ansible Playbook Files - /ansible
 [metricbeat-playbook.yml](https://github.com/gbledsoeCMSP/Project1/blob/49c69a8f7e42303f5705606cba0af03b7ad68e07/ansible/metricbeat-playbook.yml)
   
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -83,8 +83,6 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jumpbox  |       Yes           | 98.201.165.179       |
-|          |                     |                      |
-|          |                     |                      |
 
 ### Elk Configuration
 
