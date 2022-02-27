@@ -38,7 +38,7 @@ Load balancing ensures that the application will be highly avaiability, in addit
 What aspect of security do load balancers protect?
 - Load balancers protect the system from DDoS attacks by shifting traffic. 
 
-What is the advantage of a jump box?_
+What is the advantage of a jump box?
  - The advantage of a jump box is to give secure access to such resources via SSH and Private Pre-Shared key... 
 
 
@@ -73,13 +73,13 @@ Machines within the network can only be accessed by Jumpbox via SSH & Private Pr
 - Which machine did you allow to access your ELK VM? Jumpbox
 
 What was its IP address?
-- 20.121.5.142 (Jumbbox Public)
+- 20.121.5.142 (Jumpbox Public)
 
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | 98.201.165.179       |
+| Jumpbox  |       Yes           | 98.201.165.179       |
 |          |                     |                      |
 |          |                     |                      |
 
@@ -91,13 +91,13 @@ What is the main advantage of automating configuration with Ansible?
 
 The playbook implements the following tasks:
 
-In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
 
-1.  Check for the presence of docker (Install/Update)
-2.  Check for the presence of python3-pip (Install/Update)
-3.  Install Docker module
-4.  Increase virtual memory
-5.  Download and launch docker elk container
+-  Check for the presence of docker (Install/Update)
+-  Check for the presence of python3-pip (Install/Update)
+-  Install Docker module
+-  Increase virtual memory
+-  Download and launch docker elk container
 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
@@ -117,7 +117,7 @@ We have installed the following Beats on these machines:
   
   - Webservers
 
-- These Beats allow us to collect the following information from each machine:
+These Beats allow us to collect the following information from each machine:
   
   - Machine health, performance, system logs and events etc.  
 
