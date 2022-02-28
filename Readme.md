@@ -155,6 +155,6 @@ Which URL do you navigate to in order to check that the ELK server is running?
  - SSH aszureuser@10.0.0.8 (Web-1)
  - http://13.77.220.158:5601/app/#kibana/home
 
-As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
 ![howto](https://user-images.githubusercontent.com/94094793/155827322-e123c837-067b-45ee-98da-f5a145bb7983.png)
